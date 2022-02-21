@@ -1,0 +1,30 @@
+body {
+  font-family: "Titan One", sans-serif;
+}
+
+.container {
+  width: 100%;
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+@media (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding: 0 34px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    width: 1280px;
+    padding: 0 115px;
+  }
+}
